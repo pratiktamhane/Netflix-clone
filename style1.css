@@ -1,0 +1,365 @@
+
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        background-image: radial-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7)),url(file:///C:/Users/Admin/Desktop/New%20folder/n%20logo/1img.jpg);
+    }
+.navbar{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+}
+.navbar img{
+    width: 14%;
+}
+.signinandlangugae{
+    width: 200px;
+    display: flex;
+    flex-direction:row;    
+}
+.btn-signin{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    padding: 5px 10px;
+    border: 2px solid red;
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+    margin-left: 30px;
+    text-decoration: none;
+}
+#lang-enghindi{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+#lang-enghindi option{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+}
+.main-container{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.first-heading{
+    font-size: 65px;
+    margin-bottom: 15px;
+    line-height: 1.1em;
+}
+.second-heading{
+    font-size: 27px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.third-heading{
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+.email-container{
+    width: 50%;
+    height: fit-content;
+    background-color: white;
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 200px;
+}
+.bottom-email-container{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+   width: 100%;
+   align-items: center;
+   justify-content: center;
+   color: white;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+.input-email{
+    outline: none;
+    border:none;
+    padding: 20px 10px;
+    font-size: 1em;
+}
+.btn-getstarted{
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    cursor: pointer;
+    height: fit-content;
+    padding: 20px 40px;
+    background-color:#e50914;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+}
+.section-1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+
+/*section-2*/
+.greytopborder{
+    width: 100%;
+    height: 7px;
+    background-color: rgb(73, 72, 72);
+}
+.subblackcontainer-2{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/*section-3*/
+.faq_section{
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   align-items: center;
+   background-color: black;
+   color: white;
+   padding-top: 50px;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.faq_heading{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+}
+
+.greybox{
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    background-color: rgb(37, 37, 37);
+    margin: 5px;
+}
+.greyboxin{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 8px 35px;
+}
+.greyboxin h1{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 60px;
+}
+.plus_btn{
+    color: white;
+    font-size: 40px;
+    background: none;
+    border: none;
+}
+.greyboxout{
+    display: none;
+    flex-direction: column;
+}
+.greyboxout hr{
+    width: 100%;
+    margin: 0%;
+    background-color:black ;
+    border: 1px solid black;
+}
+.greyboxout p{
+    font-size: 25px;
+    margin: 20px 6px;
+    padding: 20px;
+}
+.blackcontainer-text{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    width: 35%;
+    align-items: center;
+}
+.blackcontainer-text h1{
+    font-size: 50px;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+.blackcontainer-text p{
+    font-size: 28px;
+    text-align: left;
+    width: 100%;
+}
+.livetv-animation{
+    width: 600px;
+}
+.livetv-animation img{
+   
+    z-index: 3;
+    width: 610px;
+    position: absolute;
+}
+.livetv-animation video{
+    padding: 72px;
+    z-index: 2;
+    position: absolute;
+    width: 471px;
+    
+    
+}
+/*footer section*/
+footer{
+    width:100%;
+    height: 350%;
+    background-color:black ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-section{
+    color: gray;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+.footer-section-2-column{
+    padding: 30px 0px;
+    padding-right: 70px;
+}
+.footer-section-2-column p{
+    padding: 5px 0px;
+}
+.footer-section-2-column p a, .footer-section a{
+   text-decoration: none;
+   color: gray;
+}
+.call{
+    text-decoration: none;
+}
+.call:hover{
+    text-decoration: underline;
+    color: gray;
+}
+#lang-enghindi-1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+     font-size: 15px;
+     padding: 12px 17px;
+     background-color:rgba(0, 0, 0, 0) ;
+     color: white;
+     border: 1px gray;
+}
+#lang-enghindi-1 option{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    padding: 10px;
+}
+.strangerthingsvideo{
+    width: 410px;
+    padding-top: 90px;
+    
+}
+.sacredgames{
+    height: 213.5px;
+    width: 454px;
+}
+.livetv-animation video .sacredgames{
+    margin-bottom: 100px;
+}
+    @media (max-width: 900px) {
+        .first-heading{
+            font-size: 50px;
+        }
+        .third-heading{
+            padding: 10px;
+            padding-bottom: 20px;
+            font-size: 17px;
+        }
+        .subblackcontainer-2{
+            flex-direction: column;
+            height: 600px;
+            justify-content: start;
+        }
+        .blackcontainer-text{
+            width: 100%;
+        }
+        .blackcontainer-text h1{
+            text-align: center;
+            font-size: 35px;
+            margin-top: 20px;
+        }
+        .blackcontainer-text p{
+            text-align: center;
+            font-size: 20px;
+        }
+        .livetv-animation img{
+            width: 500px;
+        }
+        .livetv-animation video{
+            width: 350px
+        }
+        .strangerthingsvideo{
+            width: 400px;
+        }
+        .secoundcontainers2{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .sacredgames{
+            width: 370px;
+            padding: 0px;
+            margin-left: 30px;
+        }
+        .thirdcontainers2 .blackcontainer-media.livetv-animation video{
+            width: 300px;
+            padding: 30px 69px;
+
+        }
+        .fourthcontainers2{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .kidsimage{
+            width: 70%;
+        }
+        .email-container{
+            width: 70%;
+        }
+        .btn-getstarted{
+            padding: 20px ;
+            font-size: 1em;
+        }
+        .faq-section{
+            padding-top: 0px;
+        }
+        .greboxin{
+            margin: 0px 15px;
+        }
+        .greboxin h1{
+            font-size: 18px;
+        }
+        .plus_btn{
+            font-size: 30px;
+        }
+        .faq-heading{
+            font-size: 35px;
+        }
+        .footer-section{
+            margin: 0px 40px;
+        }
+    }
+        
