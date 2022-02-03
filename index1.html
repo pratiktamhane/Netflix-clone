@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon"href="Favicon logo.png" type="image/x-icon">
+    <title>Netflix India - watch TV shows online, watch Movies online</title>
+     <link rel="stylesheet" href="style1.css">
+</head>
+<style>
+    @media (max-width: 1000px) {
+        .first-heading{
+            font-size: 50px;
+        }
+        .third-heading{
+            padding: 10px;
+            padding-bottom: 20px;
+            font-size: 17px;
+        }
+        .subblackcontainer-2{
+            flex-direction: column;
+            height: 600px;
+            justify-content: start;
+        }
+        .blackcontainer-text{
+            width: 100%;
+        }
+        .blackcontainer-text h1{
+            text-align: center;
+            font-size: 35px;
+            margin-top: 20px;
+        }
+        .blackcontainer-text p{
+            text-align: center;
+            font-size: 20px;
+        }
+        .livetv-animation img{
+            width: 500px;
+        }
+        .livetv-animation video{
+            width: 400px
+        }
+        .strangerthingsvideo{
+            width: 384px;
+            padding-top: 40px;
+        }
+        .secoundcontainers2{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .sacredgames{
+            
+            width: 471px;
+            height: 216.5px;
+     
+        }
+        .thirdcontainers2 .blackcontainer-media.livetv-animation video{
+            width: 300px;
+            padding: 30px 69px;
+
+        }
+        .fourthcontainers2{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .kidsimage{
+            width: 500px;
+        }
+        .email-container{
+            width: 70%;
+        }
+        .btn-getstarted{
+            padding: 20px 5px ;
+            font-size: 1em;
+        }
+        .faq-section{
+            padding-top: 0px;
+        }
+        .greboxin{
+            margin: 0px 15px;
+        }
+        .greboxin h1{
+            font-size: 18px;
+        }
+        .plus_btn{
+            font-size: 30px;
+        }
+        .faq-heading{
+            font-size: 35px;
+        }
+        .footer-section{
+            margin: 0px 40px;
+        }
+
+        
+    }
+    @media (max-width:887px) {
+        .footer-section-2-column{
+            padding-right: 25px;
+        }
+        .footer-section{
+            color: grey;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .footer-section-2-column p a, .footer-section a{
+            font-size: 15;
+            
+        }
+        
+    }
+     @media (max-width:665px) {
+         .navbar{
+             height: 13vh;
+         }
+         .navbar img{
+             width: 110px;
+         }
+         .first-heading{
+             font-size: 27px;
+             padding-top: 40px;
+
+         }
+         .second-heading{
+             font-size: 18px;
+         }
+         .third-heading{
+             font-size: 20px;
+             padding:10px 15px;
+             text-align: center;
+
+         }
+         .email-container{
+             align-items: center;
+             width: 85%;
+             display: flex;
+             flex-direction: column;
+             background-color: rgba(255,255,255,0);    
+         }
+         .input-email{
+             margin-bottom: 13px;
+             width: 100%;
+             padding: 15px 10px;
+             font-size: 15px;
+         }
+         .btn-getstarted{
+             width: 100px;
+             padding: 13px 17px;
+         }
+         .section-1{
+             height: 407px;
+         }
+         .subblackcontainer-2{
+             flex-direction: column;
+             height: 475px;
+             justify-self:start;
+         }
+         .blackcontainer-text{
+             width: 100%;
+             padding: 20px;
+         }
+         .blackcontainer-text h1{
+             font-size: 29px;
+             margin-top: 30px;
+         }
+         .blackcontainer-text p{
+             text-align: center;
+             font-size: 20px;
+         }
+         .blackcontainer-media{
+             display: flex;
+             width: 100%;
+             align-items: center;
+             justify-content: center;
+         }
+         .livetv-animation{
+             width: 340px;
+
+         }
+         .livetv-animation img{
+             width: 320px;
+
+         }
+         .livetv-animation video{
+             width: 241px;
+             padding: 50px 44px;
+         }
+         .strangerthingsvideo{
+             padding-top:40px;
+             width: 245px;
+         }
+         .secoundcontainers2{
+             display: flex;
+             flex-direction: column-reverse;
+         }
+         .sacredgames{
+             width: 240px;
+             padding: 0px;
+             margin-left: 25px;
+             height: 115px;
+             
+             
+         }
+         .thirdcontainers2 .blackcontainer-media .livetv-animation video{
+             width: 195px;
+             padding: 19px 32px;
+         }
+         .fourthcontainers2{
+             display: flex;
+             flex-direction: column-reverse;
+         }
+         .kidsimage{
+             width: 350px;
+         }
+         .faq-section{
+             padding-top: 0px;
+             text-align: center;
+         }
+         .greybox{
+             width: 100%;
+         }
+         .greboxin{
+             margin: 0px 15px;
+         }
+         .greboxin h1{
+             font-size: 18px;
+         }
+         .plus_btn{
+             font-size: 30px;
+         }
+         .faq-heading{
+             font-size: 25px;
+         }
+         .footer{
+             height: 330px;
+         }
+         .footer-section{
+             display: flex;
+             width: 100%;
+             align-items: center;
+         }
+         .footer-section-2-column{
+             padding: 0px;
+             width: 240px;
+         }
+         .footer-section-2-column p{
+             padding: 5px 0px;
+             width: 100%;
+             text-align: left;
+         }
+         
+    }
+    @media (max-width:480px) {
+        .footer{
+            height: 400px;
+        }
+        .footer-section-2-column{
+            width: 180px;
+        }
+        
+    }
+</style>
+<body>
+    <div class="body">
+        <nav class="navbar">
+            <img class="Logo" src="file:///C:/Users/Admin/Desktop/New%20folder/n%20logo/logo.png" alt="Netflix logo">
+           
+            <div class="signinandlangugae">
+                <div class="languagesection">
+                    <select name="languagesection" id="lang-enghindi">
+                     <option value="English">English</option>
+                     <option value="Hindi">Hindi</option>
+
+                    </select>
+                </div>
+                <a href="sign-in-page.html" class="btn-signin">sign In</a>
+            </div>
+        </nav>
+        <div class="section-1">
+        <div class="main-container">
+            <h1 class="first-heading">Unlimited movies, TV<br>shows and more.</h1>
+            <h2 class="second-heading">Watch anywhere. Cancel anytime.</h2>
+            <p class="third-heading">Ready to watch? Enter your email to create or restart your membership.</p>
+
+        </div>
+        <div class="email-container">
+            <input class="input-email" type="email" name="" id="" placeholder="Email address">
+            <div class="btn-getstarted">Get Started ></div>
+        </div>
+    </div>
+    </div>
+    <div class="section-2">
+        <div class="container-2">
+            <div class="greytopborder"></div>
+            <div class="subblackcontainer-2 firstcontainers2">
+                    <div class="blackcontainer-text">
+                        <h1>Enjoy on your TV.</h1>
+                        <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+                    </div>
+                    <div class="blackcontainer-media ">
+                        <div class="livetv-animation">
+                            <img src="TV.png" alt="">
+                            <video src="video-tv-1.m4v" muted loop autoplay></video>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="container-2">
+            <div class="greytopborder"></div>
+            <div class="subblackcontainer-2 secondcontainers2">
+                <div class="blackcontainer-media">
+                    <video src="video-strangerthings.m4v" loop autoplay class="strangerthingsvideo"></video>
+                </div>
+                <div class="blackcontainer-text">
+                    <h1>Download your shows to watch offline.</h1>
+                    <p>Save your favourites easily and always have something to watch.</p>
+                </div>
+
+            </div>
+            </div>
+        </div>
+        <div class="container-2">
+            <div class="greytopborder"></div>
+            <div class="subblackcontainer-2 thirdcontainers2">
+            <div class="blackcontainer-text">
+                <h1>Watch everywhere.</h1>
+                <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+            </div>
+            <div class="blackcontainer-media">
+                <div class="livetv-animation">
+                <img src="device-pile-in.png" alt="">
+                <video src="video-devices-in.m4v" loop autoplay class="sacredgames"></video>
+            </div>
+            </div>
+         </div>
+        </div>
+        <div class="container-2">
+            <div class="greytopborder"></div>
+            <div class="subblackcontainer-2 fourthcontainers2">
+              <div class="blackcontainer-media">
+                  <img src="Kids.png" alt="" class="kidsimage">
+              </div>  
+              <div class="blackcontainer-text">
+                  <h1>Create profiles for children.</h1>
+                  <p>Send children on adventures with their favourite characters in a space made just for them—free with your membership.</p>
+              </div>
+            </div>
+        </div>
+        <div class="greytopborder"></div>
+</div>
+<div class="faq_section">
+    <h1 class="faq_heading">Frequantly Asked Questions</h1>
+    <div class="greybox">
+        <div class="greyboxin">
+            <h1>What is Netflix?</h1>
+            <button onclick="showorhide1()" id="plus_btn_1" class="plus_btn">+</button>
+
+        </div>
+        <div id="greyboxout_1" class="greyboxout">
+            <hr>
+            <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.
+               <br><br>
+                You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!
+            </p>
+        </div>
+    </div>
+    
+        <div class="greybox">
+            <div class="greyboxin">
+                <h1>How much does Netflix cost?</h1>
+                <button onclick="showorhide2()" id="plus_btn_2" class="plus_btn">+</button>
+    
+            </div>
+            <div id="greyboxout_2" class="greyboxout">
+                <hr>
+                <p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₹ 149 to ₹ 649 a month. No extra costs, no contracts.
+                </p>
+            </div>
+        </div>
+        <div class="greybox">
+            <div class="greyboxin">
+                <h1>where can I watch?</h1>
+                <button onclick="showorhide3()" id="plus_btn_3" class="plus_btn">+</button>
+    
+            </div>
+            <div id="greyboxout_3" class="greyboxout">
+                <hr>
+                <p>Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.
+                 <br><br>You can also download your favourite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.
+
+                </p>
+            </div>
+        </div>
+        <div class="greybox">
+            <div class="greyboxin">
+                <h1>How do I cancel?</h1>
+                <button onclick="showorhide4()" id="plus_btn_4" class="plus_btn">+</button>
+    
+            </div>
+            <div id="greyboxout_4" class="greyboxout">
+                <hr>
+                <p>Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees - start or stop your account anytime.</p>
+            </div>
+        </div>
+        <div class="greybox">
+            <div class="greyboxin">
+                <h1>What can I watch on Netflix?</h1>
+                <button onclick="showorhide5()" id="plus_btn_5" class="plus_btn">+</button>
+    
+            </div>
+            <div id="greyboxout_5" class="greyboxout">
+                <hr>
+                <p>Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.
+                </p>
+            </div>
+        </div>
+        <div class="greybox">
+            <div class="greyboxin">
+                <h1>Is Netflix good for kids?</h1>
+                <button onclick="showorhide6()" id="plus_btn_6" class="plus_btn">+</button>
+    
+            </div>
+            <div id="greyboxout_6" class="greyboxout">
+                <hr>
+                <p>The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and films in their own space.
+                  <br><br>
+                  Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see. 
+                </p>
+            </div>
+        </div>
+</div>
+<div class="bottom-email-container">
+    <p class="third-heading">Ready to watch? Enter your email to create or restart your membership.</p>
+    <div class="email-container" style="margin-bottom: 100px;">
+        <input class="input-email" type="email" name="" id="" placeholder="Email address">
+        <div class="btn-getstarted">Get Started ></div>
+    </div>
+   <div class="greytopborder"></div>
+</div>
+<footer>
+    <div class="footerfull">
+        <div class="footer-section">
+            <p style="text-align: left;">Question?Call &nbsp;<div class="call"><a href="#">000-800-040-1843</div></p>
+        </div>
+        <div class="footer-section">
+            <div class="footer-section-2-column">
+                <p><a href="#">FAQ</a></p>
+                <p><a href="#">Investor Relations</a></p>
+                <p><a href="#">Privacy</a></p>
+                <p><a href="#">Speed Test</a></p>
+            </div>
+            <div class="footer-section">
+            <div class="footer-section-2-column">
+                <p><a href="#">Help Center</a></p>
+                <p><a href="#">Jobs</a></p>
+                <p><a href="#">Cookie preferences</a></p>
+                <p><a href="#">Legal Notices</a></p>
+            </div>
+            <div class="footer-section">
+            <div class="footer-section-2-column">
+                <p><a href="#">Account</a></p>
+                <p><a href="#">Ways to Watch</a></p>
+                <p><a href="#">Corporate Information</a></p>
+                <p><a href="#">only on Netflix</a></p>
+            </div>
+            <div class="footer-section">
+            <div class="footer-section-2-column">
+                <p><a href="#">Media Center</a></p>
+                <p><a href="#">Terms of Use</a></p>
+                <p><a href="#">Contact Us</a></p>
+                
+            </div>
+
+        </div>
+        <div class="footer-section">
+            <div class="signinandlangugae">
+                <div class="languagesection">
+                    <select name="languagesection" id="lang-enghindi-1">
+                     <option value="English">English</option>
+                     <option value="Hindi">Hindi</option>
+
+                    </select>
+                </div>
+                
+            </div>
+        </div>
+        <div class="footer-section">
+        <div class="footer-section-2-column">
+            <p><a href="#">Netflix India</a></p>
+        </div>
+        </div>  
+    </div>
+</footer>
+    
+</body>
+<script>
+    var a=1;
+    function showorhide1(){
+    if(a==1){
+        document.getElementById("greyboxout_1").style.display="flex";
+        document.getElementById("plus_btn_1").style.transform='rotate(45deg)';
+        return a=0;
+    }
+    else{
+        document.getElementById("greyboxout_1").style.display="none";
+        document.getElementById("plus_btn_1").style.transform='rotate(90deg)';
+        return a=1; 
+    }
+}
+function showorhide2(){
+    if(a==1){
+        document.getElementById("greyboxout_2").style.display="flex";
+        document.getElementById("plus_btn_2").style.transform='rotate(45deg)';
+
+        return a=0;
+    }
+    else{
+        document.getElementById("greyboxout_2").style.display="none";
+        document.getElementById("plus_btn_2").style.transform='rotate(90deg)'
+        return a=1; 
+    }
+}
+function showorhide3(){
+    if(a==1){
+        document.getElementById("greyboxout_3").style.display="flex";
+        document.getElementById("plus_btn_3").style.transform='rotate(45deg)';
+
+        return a=0;
+    }
+    else{
+        document.getElementById("greyboxout_3").style.display="none";
+        document.getElementById("plus_btn_3").style.transform='rotate(90deg)'
+        return a=1; 
+    }
+}
+function showorhide4(){
+    if(a==1){
+        document.getElementById("greyboxout_4").style.display="flex";
+        document.getElementById("plus_btn_4").style.transform='rotate(45deg)';
+
+        return a=0;
+    }
+    else{
+        document.getElementById("greyboxout_4").style.display="none";
+        document.getElementById("plus_btn_4").style.transform='rotate(90deg)'
+        return a=1; 
+    }
+}
+function showorhide5(){
+    if(a==1){
+        document.getElementById("greyboxout_5").style.display="flex";
+        document.getElementById("plus_btn_5").style.transform='rotate(45deg)';
+
+        return a=0;
+    }
+    else{
+        document.getElementById("greyboxout_5").style.display="none";
+        document.getElementById("plus_btn_5").style.transform='rotate(90deg)'
+        return a=1; 
+    }
+}
+function showorhide6(){
+    if(a==1){
+        document.getElementById("greyboxout_6").style.display="flex";
+        document.getElementById("plus_btn_6").style.transform='rotate(45deg)';
+
+        return a=0;
+    }
+    else{
+        document.getElementById("greyboxout_6").style.display="none";
+        document.getElementById("plus_btn_6").style.transform='rotate(90deg)'
+        return a=1; 
+    }
+}
+</script>
+</html>
